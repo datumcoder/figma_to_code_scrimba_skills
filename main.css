@@ -20,6 +20,16 @@ a {
 }
 
 .container {
+   
+    background: #383A45;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: .4rem;
+    max-width: 270px;
+    
+}
+.container_2 {
+   
     background: #383A45;
     margin: 1rem;
     padding: 1rem;
@@ -35,8 +45,10 @@ p.title {
 }
 
 p.description {
+    
     color: #8D91A6;
     font-size: .8rem;
+    padding-right: 1rem;
 }
 
 .link {
@@ -47,21 +59,39 @@ p.description {
 
     .container {
         max-width: 500px;
+        margin: 1rem;
+       
+        
     }
+
+    .container_2 {
+        max-width: 500px;
+        
+        
+    }
+    
 
     .photo {
         width: 9rem;
-        margin-right: 1rem;
+        padding-right: 1rem;
+        
     }
 
     a {
         display: flex;
     }
+      
 
 }
 
 @media only screen and (min-width: 550px) {
 
-    html {}
+    html {
+
+        font-size: 18px;
+      
+    }
+
+   
 
 }
